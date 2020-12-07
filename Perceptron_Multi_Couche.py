@@ -151,7 +151,7 @@ for i in range(iteration):
             if y:
                 print("")
             x=x+1  
-        if x>4:    
+        if x==4:    
             print("itération ",i)
 def prediction(x1,x2):
     S3= round((x1*W13 + x2*W23 + biais1*W03),3)
@@ -180,3 +180,4 @@ for x in range(4):
     X2=int(input("X2 = "))
     print("\n")
     print("Y= ",prediction(X1,X2),"\n")
+
